@@ -9,6 +9,7 @@ import React from 'react';
 import CanvasCart from './CanvasCart.client';
 import Footer from './Footer.server';
 import Header from './Header.client';
+import JquertLoad from './JquertLoad.client';
 
 const Layout = ({children}) => {
     // GETTING DATA FOR HEADER
@@ -22,10 +23,12 @@ const Layout = ({children}) => {
     return (
         <div class="home-classic">
             <div id="main">
-                <Header shop={data.shop}/>
-                <CanvasCart />
-                {children}
-                <Footer />
+                <JquertLoad>
+                  <Header shop={data.shop}/>
+                  <CanvasCart />
+                  {children}
+                  <Footer />
+                </JquertLoad>
             </div>
         </div>
     );
