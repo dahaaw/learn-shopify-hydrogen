@@ -18,13 +18,13 @@ export default function Shop({params, request}) {
         preload: true,
     });
 
-    const variants = flattenConnection(product.variants); 
-    console.log(variants)
+    // const variants = flattenConnection(product.variants); 
+    // console.log(product)
 
     return (
         <Layout>
             <Breadcrumb url={request.normalizedUrl}/>
-            <ProductDetail />
+            <ProductDetail product={product}/>
         </Layout>
     )
 }
