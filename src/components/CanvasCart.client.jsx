@@ -34,8 +34,8 @@ export default function CanvasCart() {
                             {/* Item image */}
                             <p className="cart-item__image cart-item__image--ratio-100-122">
                             <a href="product.html">
-                                <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/28a.jpg 400w,
-                                    /src/assets/products/2/28a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                                <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/28a.jpg 400w,
+                                    /assets/products/2/28a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                             </a>
                             </p>
                             {/* End item image */}
@@ -67,8 +67,8 @@ export default function CanvasCart() {
                             {/* Item image */}
                             <p className="cart-item__image cart-item__image--ratio-100-122">
                             <a href="product.html">
-                                <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/27_1-a.jpg 400w,
-                                    /src/assets/products/2/27_1-a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                                <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/27_1-a.jpg 400w,
+                                    /assets/products/2/27_1-a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                             </a>
                             </p>
                             {/* End item image */}
@@ -100,8 +100,8 @@ export default function CanvasCart() {
                             {/* Item image */}
                             <p className="cart-item__image cart-item__image--ratio-100-122">
                             <a href="product.html">
-                                <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/29a.jpg 400w,
-                                    /src/assets/products/2/29a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                                <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/29a.jpg 400w,
+                                    /assets/products/2/29a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                             </a>
                             </p>
                             {/* End item image */}

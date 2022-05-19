@@ -37,32 +37,32 @@ const ProductFeatured = () => {
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image active">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/26a.jpg 400w,
-                                /src/assets/products/2/26a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/26a.jpg 400w,
+                                /assets/products/2/26a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/26b.jpg 400w,
-                                /src/assets/products/2/26b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/26b.jpg 400w,
+                                /assets/products/2/26b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}    
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/26c.jpg 400w,
-                                /src/assets/products/2/26c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/26c.jpg 400w,
+                                /assets/products/2/26c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}   
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/26d.jpg 400w,
-                                /src/assets/products/2/26d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/26d.jpg 400w,
+                                /assets/products/2/26d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */} 
@@ -126,24 +126,24 @@ const ProductFeatured = () => {
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image active">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/27_1-a.jpg 400w,
-                                /src/assets/products/2/27_1-a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/27_1-a.jpg 400w,
+                                /assets/products/2/27_1-a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/27_1-b.jpg 400w,
-                                /src/assets/products/2/27_1-b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/27_1-b.jpg 400w,
+                                /assets/products/2/27_1-b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}    
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/27_1-c.jpg 400w,
-                                /src/assets/products/2/27_1-c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/27_1-c.jpg 400w,
+                                /assets/products/2/27_1-c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}   
@@ -169,8 +169,8 @@ const ProductFeatured = () => {
                     {/* End product action */}
                     {/* Product image colors */}
                     <ul className="product-grid-item__image-colors">
-                    <li><a href="#" className="product-grid-item__image-color active"><img src="/src/assets/products/2/27_1-a.jpg" alt="Image color" /></a></li>
-                    <li><a href="#" className="product-grid-item__image-color"><img src="/src/assets/products/2/31a.jpg" alt="Image color" /></a></li>
+                    <li><a href="#" className="product-grid-item__image-color active"><img src="/assets/products/2/27_1-a.jpg" alt="Image color" /></a></li>
+                    <li><a href="#" className="product-grid-item__image-color"><img src="/assets/products/2/31a.jpg" alt="Image color" /></a></li>
                     </ul>
                     {/* End product image colors */}
                     {/* Product name */}
@@ -203,32 +203,32 @@ const ProductFeatured = () => {
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image active">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/28a.jpg 400w,
-                                /src/assets/products/2/28a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/28a.jpg 400w,
+                                /assets/products/2/28a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/28b.jpg 400w,
-                                /src/assets/products/2/28b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/28b.jpg 400w,
+                                /assets/products/2/28b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}    
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/28c.jpg 400w,
-                                /src/assets/products/2/28c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/28c.jpg 400w,
+                                /assets/products/2/28c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}   
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/28d.jpg 400w,
-                                /src/assets/products/2/28d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/28d.jpg 400w,
+                                /assets/products/2/28d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */} 
@@ -285,24 +285,24 @@ const ProductFeatured = () => {
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image active">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/29a.jpg 400w,
-                                /src/assets/products/2/29a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/29a.jpg 400w,
+                                /assets/products/2/29a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/29b.jpg 400w,
-                                /src/assets/products/2/29b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/29b.jpg 400w,
+                                /assets/products/2/29b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}    
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/29c.jpg 400w,
-                                /src/assets/products/2/29c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/29c.jpg 400w,
+                                /assets/products/2/29c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}   
@@ -366,32 +366,32 @@ const ProductFeatured = () => {
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image active">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/33a.jpg 400w,
-                                /src/assets/products/2/33a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/33a.jpg 400w,
+                                /assets/products/2/33a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/33b.jpg 400w,
-                                /src/assets/products/2/33b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/33b.jpg 400w,
+                                /assets/products/2/33b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}    
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/33c.jpg 400w,
-                                /src/assets/products/2/33c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/33c.jpg 400w,
+                                /assets/products/2/33c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}   
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/33d.jpg 400w,
-                                /src/assets/products/2/33d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/33d.jpg 400w,
+                                /assets/products/2/33d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */} 
@@ -452,32 +452,32 @@ const ProductFeatured = () => {
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image active">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/35a.jpg 400w,
-                                /src/assets/products/2/35a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/35a.jpg 400w,
+                                /assets/products/2/35a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/35b.jpg 400w,
-                                /src/assets/products/2/35b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/35b.jpg 400w,
+                                /assets/products/2/35b.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}    
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/35c.jpg 400w,
-                                /src/assets/products/2/35c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/35c.jpg 400w,
+                                /assets/products/2/35c.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */}   
                     {/* Product image */}
                     <div className="product-grid-item__image js-product-grid-image">
                         <a href="product.html">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/products/2/35d.jpg 400w,
-                                /src/assets/products/2/35d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/35d.jpg 400w,
+                                /assets/products/2/35d.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         </a>
                     </div>
                     {/* End product image */} 

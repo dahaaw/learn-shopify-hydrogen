@@ -9,7 +9,7 @@ export default function CollectionBanner() {
             <div className="classic-collection-banner">
             {/* Banner image */}
             <div className="classic-collection-banner__image">
-                <img alt="Image" src="/src/assets/images/classic/banner-03.jpg" className />
+                <img alt="Image" src="/assets/images/classic/banner-03.jpg" className />
             </div>
             {/* End banner image */}
             {/* Content */}
@@ -58,7 +58,7 @@ export default function CollectionBanner() {
             {/* End content */}
             {/* Banner image */}
             <div className="classic-collection-banner__image">
-                <img alt="Image" src="/src/assets/images/classic/banner-04.jpg" className />
+                <img alt="Image" src="/assets/images/classic/banner-04.jpg" className />
             </div>
             {/* End banner image */}
             </div>

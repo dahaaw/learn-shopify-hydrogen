@@ -12,8 +12,8 @@ export default function Banner() {
                 <div className="classic-banners__banner">
                 {/* Banner image */}
                 <div className="classic-banner__image">
-                    <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/classic/banner-01.jpg 400w,
-                        /src/assets/images/classic/banner-01.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                    <img alt="Image" data-sizes="auto" data-srcset="/assets/images/classic/banner-01.jpg 400w,
+                        /assets/images/classic/banner-01.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                 </div>
                 {/* End banner image */}
                 {/* Banner content */}
@@ -35,8 +35,8 @@ export default function Banner() {
                 <div className="classic-banners__banner classic-banners__banner--white">
                 {/* Banner image */}
                 <div className="classic-banner__image">
-                    <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/classic/banner-02.jpg 400w,
-                        /src/assets/images/classic/banner-02.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                    <img alt="Image" data-sizes="auto" data-srcset="/assets/images/classic/banner-02.jpg 400w,
+                        /assets/images/classic/banner-02.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                 </div>
                 {/* End banner image */}
                 {/* Banner content */}
