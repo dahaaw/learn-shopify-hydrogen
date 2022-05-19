@@ -3,7 +3,6 @@ import BlogLatest from '../components/BlogLatest.client';
 import Brands from '../components/Brands.client';
 import CollectionBanner from '../components/CollectionBanner.client';
 import Intro from '../components/Intro.client';
-import JquertLoad from '../components/JquertLoad.client';
 import Layout from '../components/Layout.server';
 import Newslater from '../components/Newslater.client';
 import ProductFeatured from '../components/ProductFeatured.server';
@@ -20,7 +19,6 @@ export default function Home() {
       <ProductSlider />
       <BlogLatest />
       <Newslater />
-      <JquertLoad />
     </Layout>
   );
 }

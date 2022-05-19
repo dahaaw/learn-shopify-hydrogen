@@ -2,7 +2,6 @@ import { flattenConnection, useShopQuery } from '@shopify/hydrogen';
 import gql from 'graphql-tag';
 import React from 'react'
 import Breadcrumb from '../../components/Breadcrumb.client';
-import JquertLoad from '../../components/JquertLoad.client';
 import Layout from '../../components/Layout.server';
 import ProductDetail from '../../components/ProductDetail.client';
 
@@ -26,7 +25,6 @@ export default function Shop({params, request}) {
         <Layout>
             <Breadcrumb url={request.normalizedUrl}/>
             <ProductDetail />
-            <JquertLoad />
         </Layout>
     )
 }

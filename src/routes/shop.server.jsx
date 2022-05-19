@@ -6,7 +6,6 @@ import {
 import gql from 'graphql-tag';
 
 import Breadcrumb from '../components/Breadcrumb.client';
-import JquertLoad from '../components/JquertLoad.client';
 import Layout from '../components/Layout.server';
 import ProductLists from '../components/ProductLists.client';
 
@@ -22,7 +21,6 @@ export default function Shop({request}) {
     <Layout>
       <Breadcrumb url={request.normalizedUrl}/>
       <ProductLists products={products}/>
-      <JquertLoad />
     </Layout>
   );
 }
