@@ -1,0 +1,26 @@
+import Banner from '../components/Banner.client';
+import BlogLatest from '../components/BlogLatest.client';
+import Brands from '../components/Brands.client';
+import CollectionBanner from '../components/CollectionBanner.client';
+import Intro from '../components/Intro.client';
+import JquertLoad from '../components/JquertLoad.client';
+import Layout from '../components/Layout.server';
+import Newslater from '../components/Newslater.client';
+import ProductFeatured from '../components/ProductFeatured.server';
+import ProductSlider from '../components/ProductSlider.client';
+
+export default function Home() {
+  return (
+    <Layout>
+      <Banner />
+      <Intro />
+      <Brands />
+      <ProductFeatured />
+      <CollectionBanner />
+      <ProductSlider />
+      <BlogLatest />
+      <Newslater />
+      <JquertLoad />
+    </Layout>
+  );
+}
