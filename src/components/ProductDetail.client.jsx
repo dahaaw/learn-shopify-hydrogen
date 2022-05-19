@@ -11,46 +11,46 @@ export default function ProductDetail() {
         <div class="product__mobile-gallery product__mobile-gallery--images-100-122 js-product-mobile-gallery">
         <div class="mobile-product-image">
             <p>
-            <a href="/src/assets/products/2/33a.jpg">
+            <a href="/assets/products/2/33a.jpg">
                 <img
                 alt="Image"
-                src="/src/assets/products/2/33a.jpg" />
+                src="/assets/products/2/33a.jpg" />
             </a>
             </p>
         </div>
         <div class="mobile-product-image">
             <p>
-            <a href="/src/assets/products/2/33b.jpg">
+            <a href="/assets/products/2/33b.jpg">
                 <img
                 alt="Image"
-                src="/src/assets/products/2/33b.jpg" />
+                src="/assets/products/2/33b.jpg" />
             </a>
             </p>
         </div>
         <div class="mobile-product-image">
             <p>
-            <a href="/src/assets/products/2/33c.jpg">
+            <a href="/assets/products/2/33c.jpg">
                 <img
                 alt="Image"
-                src="/src/assets/products/2/33c.jpg" />
+                src="/assets/products/2/33c.jpg" />
             </a>
             </p>
         </div>
         <div class="mobile-product-image">
             <p>
-            <a href="/src/assets/products/2/33d.jpg">
+            <a href="/assets/products/2/33d.jpg">
                 <img
                 alt="Image"
-                src="/src/assets/products/2/33d.jpg" />
+                src="/assets/products/2/33d.jpg" />
             </a>
             </p>
         </div>
         <div class="mobile-product-image">
             <p>
-            <a href="/src/assets/products/2/33e.jpg">
+            <a href="/assets/products/2/33e.jpg">
                 <img
                 alt="Image"
-                src="/src/assets/products/2/33e.jpg" />
+                src="/assets/products/2/33e.jpg" />
             </a>
             </p>
         </div>
@@ -65,38 +65,38 @@ export default function ProductDetail() {
             {/* <!-- Product main image --> */}
             <ul class="product__main-image js-popup-gallery">
                 <li class="active js-product-main-image" data-id="0">
-                <a href="/src/assets/products/2/33a.jpg">
+                <a href="/assets/products/2/33a.jpg">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33a.jpg" data-zoomed="/src/assets/products/2/33a.jpg" class="js-zoomit" />
+                    src="/assets/products/2/33a.jpg" data-zoomed="/assets/products/2/33a.jpg" class="js-zoomit" />
                 </a>
                 </li>
                 <li class="js-product-main-image" data-id="1">
-                <a href="/src/assets/products/2/33b.jpg">
+                <a href="/assets/products/2/33b.jpg">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33b.jpg" data-zoomed="/src/assets/products/2/33b.jpg" class="js-zoomit" />
+                    src="/assets/products/2/33b.jpg" data-zoomed="/assets/products/2/33b.jpg" class="js-zoomit" />
                 </a>
                 </li>
                 <li class="js-product-main-image" data-id="2">
-                <a href="/src/assets/products/2/33c.jpg">
+                <a href="/assets/products/2/33c.jpg">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33c.jpg" data-zoomed="/src/assets/products/2/33c.jpg" class="js-zoomit" />
+                    src="/assets/products/2/33c.jpg" data-zoomed="/assets/products/2/33c.jpg" class="js-zoomit" />
                 </a>
                 </li>
                 <li class="js-product-main-image" data-id="3">
-                <a href="/src/assets/products/2/33d.jpg">
+                <a href="/assets/products/2/33d.jpg">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33d.jpg" data-zoomed="/src/assets/products/2/33d.jpg" class="js-zoomit" />
+                    src="/assets/products/2/33d.jpg" data-zoomed="/assets/products/2/33d.jpg" class="js-zoomit" />
                 </a>
                 </li>
                 <li class="js-product-main-image" data-id="4">
-                <a href="/src/assets/products/2/33e.jpg">
+                <a href="/assets/products/2/33e.jpg">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33e.jpg" data-zoomed="/src/assets/products/2/33e.jpg" class="js-zoomit" />
+                    src="/assets/products/2/33e.jpg" data-zoomed="/assets/products/2/33e.jpg" class="js-zoomit" />
                 </a>
                 </li>
             </ul>
@@ -107,35 +107,35 @@ export default function ProductDetail() {
                 <a href="#" class="active js-product-thumbnail" data-id="0">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33a.jpg" />
+                    src="/assets/products/2/33a.jpg" />
                 </a>
                 </li>
                 <li>
                 <a href="#" class="js-product-thumbnail" data-id="1">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33b.jpg" />
+                    src="/assets/products/2/33b.jpg" />
                 </a>
                 </li>
                 <li>
                 <a href="#" class="js-product-thumbnail" data-id="2">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33c.jpg" />
+                    src="/assets/products/2/33c.jpg" />
                 </a>
                 </li>
                 <li>
                 <a href="#" class="js-product-thumbnail" data-id="3">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33d.jpg" />
+                    src="/assets/products/2/33d.jpg" />
                 </a>
                 </li>
                 <li>
                 <a href="#" class="js-product-thumbnail" data-id="4">
                     <img
                     alt="Image"
-                    src="/src/assets/products/2/33e.jpg" />
+                    src="/assets/products/2/33e.jpg" />
                 </a>
                 </li>
             </ul>
@@ -279,8 +279,8 @@ export default function ProductDetail() {
                         <img
                             alt="Image"
                             data-sizes="auto"
-                            data-srcset="/src/assets/images/default/product_description_3.jpg 1560w,
-                            /src/assets/images/default/product_description_3.jpg 3120w"
+                            data-srcset="/assets/images/default/product_description_3.jpg 1560w,
+                            /assets/images/default/product_description_3.jpg 3120w"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             class="lazyload" />                    
                         </div>
@@ -292,11 +292,11 @@ export default function ProductDetail() {
                         Sleeve lining: 100% polyester
                         </p>
                         <ul class="tab__features">
-                        <li><p><img src="/src/assets/images/default/icon-washing.png" alt="Icon" /></p> <span>No Washing</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-bleach.png" alt="Icon" /></p> <span>do not bleach</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-ironing.png" alt="Icon" /></p> <span>ironing max 110 0 c / 230 0 f</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-dry-cleaning.png" alt="Icon" /></p> <span>dry cleaning perchloroethylene</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-tumble-dry.png" alt="Icon" /></p> <span>do not tumble dry</span></li>
+                        <li><p><img src="/assets/images/default/icon-washing.png" alt="Icon" /></p> <span>No Washing</span></li>
+                        <li><p><img src="/assets/images/default/icon-bleach.png" alt="Icon" /></p> <span>do not bleach</span></li>
+                        <li><p><img src="/assets/images/default/icon-ironing.png" alt="Icon" /></p> <span>ironing max 110 0 c / 230 0 f</span></li>
+                        <li><p><img src="/assets/images/default/icon-dry-cleaning.png" alt="Icon" /></p> <span>dry cleaning perchloroethylene</span></li>
+                        <li><p><img src="/assets/images/default/icon-tumble-dry.png" alt="Icon" /></p> <span>do not tumble dry</span></li>
                         </ul>
                     </div>
                     </div>  
@@ -348,8 +348,8 @@ export default function ProductDetail() {
                         <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/images/default/avatar_1.jpg 1560w,
-                        /src/assets/images/default/avatar_1.jpg 3120w"
+                        data-srcset="/assets/images/default/avatar_1.jpg 1560w,
+                        /assets/images/default/avatar_1.jpg 3120w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </div>
@@ -391,8 +391,8 @@ export default function ProductDetail() {
                         <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/images/default/avatar_2.jpg 1560w,
-                        /src/assets/images/default/avatar_2.jpg 3120w"
+                        data-srcset="/assets/images/default/avatar_2.jpg 1560w,
+                        /assets/images/default/avatar_2.jpg 3120w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </div>
@@ -579,8 +579,8 @@ export default function ProductDetail() {
                         <img
                             alt="Image"
                             data-sizes="auto"
-                            data-srcset="/src/assets/images/default/product_description_3.jpg 1560w,
-                            /src/assets/images/default/product_description_3.jpg 3120w"
+                            data-srcset="/assets/images/default/product_description_3.jpg 1560w,
+                            /assets/images/default/product_description_3.jpg 3120w"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             class="lazyload" />                    
                         </div>
@@ -592,11 +592,11 @@ export default function ProductDetail() {
                         Sleeve lining: 100% polyester
                         </p>
                         <ul class="tab__features">
-                        <li><p><img src="/src/assets/images/default/icon-washing.png" alt="Icon" /></p> <span>No Washing</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-bleach.png" alt="Icon" /></p> <span>do not bleach</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-ironing.png" alt="Icon" /></p> <span>ironing max 110 0 c / 230 0 f</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-dry-cleaning.png" alt="Icon" /></p> <span>dry cleaning perchloroethylene</span></li>
-                        <li><p><img src="/src/assets/images/default/icon-tumble-dry.png" alt="Icon" /></p> <span>do not tumble dry</span></li>
+                        <li><p><img src="/assets/images/default/icon-washing.png" alt="Icon" /></p> <span>No Washing</span></li>
+                        <li><p><img src="/assets/images/default/icon-bleach.png" alt="Icon" /></p> <span>do not bleach</span></li>
+                        <li><p><img src="/assets/images/default/icon-ironing.png" alt="Icon" /></p> <span>ironing max 110 0 c / 230 0 f</span></li>
+                        <li><p><img src="/assets/images/default/icon-dry-cleaning.png" alt="Icon" /></p> <span>dry cleaning perchloroethylene</span></li>
+                        <li><p><img src="/assets/images/default/icon-tumble-dry.png" alt="Icon" /></p> <span>do not tumble dry</span></li>
                         </ul>
                     </div>
                     </div>  
@@ -638,8 +638,8 @@ export default function ProductDetail() {
                             <img
                             alt="Image"
                             data-sizes="auto"
-                            data-srcset="/src/assets/images/default/avatar_1.jpg 1560w,
-                            /src/assets/images/default/avatar_1.jpg 3120w"
+                            data-srcset="/assets/images/default/avatar_1.jpg 1560w,
+                            /assets/images/default/avatar_1.jpg 3120w"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             class="lazyload" />
                         </div>
@@ -681,8 +681,8 @@ export default function ProductDetail() {
                             <img
                             alt="Image"
                             data-sizes="auto"
-                            data-srcset="/src/assets/images/default/avatar_2.jpg 1560w,
-                            /src/assets/images/default/avatar_2.jpg 3120w"
+                            data-srcset="/assets/images/default/avatar_2.jpg 1560w,
+                            /assets/images/default/avatar_2.jpg 3120w"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             class="lazyload" />
                         </div>
@@ -878,8 +878,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/26a.jpg 400w,
-                        /src/assets/products/2/26a.jpg 800w"
+                        data-srcset="/assets/products/2/26a.jpg 400w,
+                        /assets/products/2/26a.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -891,8 +891,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/26b.jpg 400w,
-                        /src/assets/products/2/26b.jpg 800w"
+                        data-srcset="/assets/products/2/26b.jpg 400w,
+                        /assets/products/2/26b.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -904,8 +904,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/26c.jpg 400w,
-                        /src/assets/products/2/26c.jpg 800w"
+                        data-srcset="/assets/products/2/26c.jpg 400w,
+                        /assets/products/2/26c.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -917,8 +917,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/26d.jpg 400w,
-                        /src/assets/products/2/26d.jpg 800w"
+                        data-srcset="/assets/products/2/26d.jpg 400w,
+                        /assets/products/2/26d.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -982,8 +982,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/27_1-a.jpg 400w,
-                        /src/assets/products/2/27_1-a.jpg 800w"
+                        data-srcset="/assets/products/2/27_1-a.jpg 400w,
+                        /assets/products/2/27_1-a.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -995,8 +995,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/27_1-b.jpg 400w,
-                        /src/assets/products/2/27_1-b.jpg 800w"
+                        data-srcset="/assets/products/2/27_1-b.jpg 400w,
+                        /assets/products/2/27_1-b.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1008,8 +1008,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/27_1-c.jpg 400w,
-                        /src/assets/products/2/27_1-c.jpg 800w"
+                        data-srcset="/assets/products/2/27_1-c.jpg 400w,
+                        /assets/products/2/27_1-c.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1032,8 +1032,8 @@ export default function ProductDetail() {
                 {/* <!-- End product action --> */}
                 {/* <!-- Product image colors --> */}
                 <ul class="product-grid-item__image-colors">
-                <li><a href="#" class="product-grid-item__image-color active"><img src="/src/assets/products/2/27_1-a.jpg" alt="Image color" /></a></li>
-                <li><a href="#" class="product-grid-item__image-color"><img src="/src/assets/products/2/31a.jpg" alt="Image color" /></a></li>
+                <li><a href="#" class="product-grid-item__image-color active"><img src="/assets/products/2/27_1-a.jpg" alt="Image color" /></a></li>
+                <li><a href="#" class="product-grid-item__image-color"><img src="/assets/products/2/31a.jpg" alt="Image color" /></a></li>
                 </ul>
                 {/* <!-- End product image colors --> */}
                 {/* <!-- Product name --> */}
@@ -1069,8 +1069,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/28a.jpg 400w,
-                        /src/assets/products/2/28a.jpg 800w"
+                        data-srcset="/assets/products/2/28a.jpg 400w,
+                        /assets/products/2/28a.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1082,8 +1082,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/28b.jpg 400w,
-                        /src/assets/products/2/28b.jpg 800w"
+                        data-srcset="/assets/products/2/28b.jpg 400w,
+                        /assets/products/2/28b.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1095,8 +1095,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/28c.jpg 400w,
-                        /src/assets/products/2/28c.jpg 800w"
+                        data-srcset="/assets/products/2/28c.jpg 400w,
+                        /assets/products/2/28c.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1108,8 +1108,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/28d.jpg 400w,
-                        /src/assets/products/2/28d.jpg 800w"
+                        data-srcset="/assets/products/2/28d.jpg 400w,
+                        /assets/products/2/28d.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1166,8 +1166,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/29a.jpg 400w,
-                        /src/assets/products/2/29a.jpg 800w"
+                        data-srcset="/assets/products/2/29a.jpg 400w,
+                        /assets/products/2/29a.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1179,8 +1179,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/29b.jpg 400w,
-                        /src/assets/products/2/29b.jpg 800w"
+                        data-srcset="/assets/products/2/29b.jpg 400w,
+                        /assets/products/2/29b.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1192,8 +1192,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/29c.jpg 400w,
-                        /src/assets/products/2/29c.jpg 800w"
+                        data-srcset="/assets/products/2/29c.jpg 400w,
+                        /assets/products/2/29c.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1257,8 +1257,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/33a.jpg 400w,
-                        /src/assets/products/2/33a.jpg 800w"
+                        data-srcset="/assets/products/2/33a.jpg 400w,
+                        /assets/products/2/33a.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1270,8 +1270,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/33b.jpg 400w,
-                        /src/assets/products/2/33b.jpg 800w"
+                        data-srcset="/assets/products/2/33b.jpg 400w,
+                        /assets/products/2/33b.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1283,8 +1283,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/33c.jpg 400w,
-                        /src/assets/products/2/33c.jpg 800w"
+                        data-srcset="/assets/products/2/33c.jpg 400w,
+                        /assets/products/2/33c.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1296,8 +1296,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/33d.jpg 400w,
-                        /src/assets/products/2/33d.jpg 800w"
+                        data-srcset="/assets/products/2/33d.jpg 400w,
+                        /assets/products/2/33d.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1358,8 +1358,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/35a.jpg 400w,
-                        /src/assets/products/2/35a.jpg 800w"
+                        data-srcset="/assets/products/2/35a.jpg 400w,
+                        /assets/products/2/35a.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1371,8 +1371,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/35b.jpg 400w,
-                        /src/assets/products/2/35b.jpg 800w"
+                        data-srcset="/assets/products/2/35b.jpg 400w,
+                        /assets/products/2/35b.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1384,8 +1384,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/35c.jpg 400w,
-                        /src/assets/products/2/35c.jpg 800w"
+                        data-srcset="/assets/products/2/35c.jpg 400w,
+                        /assets/products/2/35c.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>
@@ -1397,8 +1397,8 @@ export default function ProductDetail() {
                     <img
                         alt="Image"
                         data-sizes="auto"
-                        data-srcset="/src/assets/products/2/35d.jpg 400w,
-                        /src/assets/products/2/35d.jpg 800w"
+                        data-srcset="/assets/products/2/35d.jpg 400w,
+                        /assets/products/2/35d.jpg 800w"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         class="lazyload" />
                     </a>

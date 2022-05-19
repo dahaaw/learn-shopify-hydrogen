@@ -10,35 +10,35 @@ export default function Brands() {
             {/* Item */}
             <div className="home-brand-item">
                 <a href="#">
-                <img alt="Image" src="/src/assets/images/default/brand_1.png" className="lazyload" />
+                <img alt="Image" src="/assets/images/default/brand_1.png" className="lazyload" />
                 </a>
             </div>
             {/* End item */}
             {/* Item */}
             <div className="home-brand-item">
                 <a href="#">
-                <img alt="Image" src="/src/assets/images/default/brand_2.png" className="lazyload" />
+                <img alt="Image" src="/assets/images/default/brand_2.png" className="lazyload" />
                 </a>
             </div>
             {/* End item */}
             {/* Item */}
             <div className="home-brand-item">
                 <a href="#">
-                <img alt="Image" src="/src/assets/images/default/brand_3.png" className="lazyload" />
+                <img alt="Image" src="/assets/images/default/brand_3.png" className="lazyload" />
                 </a>
             </div>
             {/* End item */}
             {/* Item */}
             <div className="home-brand-item">
                 <a href="#">
-                <img alt="Image" src="/src/assets/images/default/brand_4.png" className="lazyload" />
+                <img alt="Image" src="/assets/images/default/brand_4.png" className="lazyload" />
                 </a>
             </div>
             {/* End item */}
             {/* Item */}
             <div className="home-brand-item">
                 <a href="#">
-                <img alt="Image" src="/src/assets/images/default/brand_5.png" className="lazyload" />
+                <img alt="Image" src="/assets/images/default/brand_5.png" className="lazyload" />
                 </a>
             </div>
             {/* End item */}

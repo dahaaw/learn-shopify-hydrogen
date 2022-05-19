@@ -9,7 +9,7 @@ export default function Newslater() {
             <div className="classic-newsletter__container">
             {/* Image */}
             <div className="classic-newsletter__background-image">
-                <img src="/src/assets/images/classic/newsletter.png" alt="Newsletter" />
+                <img src="/assets/images/classic/newsletter.png" alt="Newsletter" />
             </div>
             {/* End image */}
             {/* Row */}

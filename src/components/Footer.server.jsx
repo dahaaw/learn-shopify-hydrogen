@@ -77,8 +77,8 @@ export default function Footer() {
                     {/* Feed */}
                     <li>
                     <a href="https://instagram.com" target="_blank">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/default/instagram_1.jpg 400w,
-                            /src/assets/images/default/instagram_1.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/images/default/instagram_1.jpg 400w,
+                            /assets/images/default/instagram_1.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         <i className="lnil lnil-Instagram" />
                     </a>
                     </li>
@@ -86,8 +86,8 @@ export default function Footer() {
                     {/* Feed */}
                     <li>
                     <a href="https://instagram.com" target="_blank">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/default/instagram_2.jpg 400w,
-                            /src/assets/images/default/instagram_2.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/images/default/instagram_2.jpg 400w,
+                            /assets/images/default/instagram_2.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         <i className="lnil lnil-Instagram" />
                     </a>
                     </li>
@@ -95,8 +95,8 @@ export default function Footer() {
                     {/* Feed */}
                     <li>
                     <a href="https://instagram.com" target="_blank">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/default/instagram_3.jpg 400w,
-                            /src/assets/images/default/instagram_3.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/images/default/instagram_3.jpg 400w,
+                            /assets/images/default/instagram_3.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         <i className="lnil lnil-Instagram" />
                     </a>
                     </li>
@@ -104,8 +104,8 @@ export default function Footer() {
                     {/* Feed */}
                     <li>
                     <a href="https://instagram.com" target="_blank">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/default/instagram_4.jpg 400w,
-                            /src/assets/images/default/instagram_4.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/images/default/instagram_4.jpg 400w,
+                            /assets/images/default/instagram_4.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         <i className="lnil lnil-Instagram" />
                     </a>
                     </li>
@@ -113,8 +113,8 @@ export default function Footer() {
                     {/* Feed */}
                     <li>
                     <a href="https://instagram.com" target="_blank">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/default/instagram_5.jpg 400w,
-                            /src/assets/images/default/instagram_5.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/images/default/instagram_5.jpg 400w,
+                            /assets/images/default/instagram_5.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         <i className="lnil lnil-Instagram" />
                     </a>
                     </li>
@@ -122,8 +122,8 @@ export default function Footer() {
                     {/* Feed */}
                     <li>
                     <a href="https://instagram.com" target="_blank">
-                        <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/default/instagram_1.jpg 400w,
-                            /src/assets/images/default/instagram_1.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                        <img alt="Image" data-sizes="auto" data-srcset="/assets/images/default/instagram_1.jpg 400w,
+                            /assets/images/default/instagram_1.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                         <i className="lnil lnil-Instagram" />
                     </a>
                     </li>
@@ -147,7 +147,7 @@ export default function Footer() {
                 {/* End copyright first column */}
                 {/* Copyright payments */}
                 <div className="col-lg-6 copyright__payment">
-                <span>Accept for</span> <img src="/src/assets/images/default/payment.png" alt="Payment method" />
+                <span>Accept for</span> <img src="/assets/images/default/payment.png" alt="Payment method" />
                 </div>
                 {/* End copyright payments */}
             </div>

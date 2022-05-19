@@ -19,8 +19,8 @@ export default function BlogLatest() {
                 {/* Image */}
                 <div className="blog-article__image">
                     <a href="post.html">
-                    <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/collection/post-1.jpg 1560w,
-                            /src/assets/images/collection/post-1.jpg 3120w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                    <img alt="Image" data-sizes="auto" data-srcset="/assets/images/collection/post-1.jpg 1560w,
+                            /assets/images/collection/post-1.jpg 3120w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                     </a>
                 </div>
                 {/* End image */}
@@ -45,8 +45,8 @@ export default function BlogLatest() {
                 {/* Image */}
                 <div className="blog-article__image">
                     <a href="post.html">
-                    <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/collection/post-2.jpg 1560w,
-                            /src/assets/images/collection/post-2.jpg 3120w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                    <img alt="Image" data-sizes="auto" data-srcset="/assets/images/collection/post-2.jpg 1560w,
+                            /assets/images/collection/post-2.jpg 3120w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                     </a>
                 </div>
                 {/* End image */}
@@ -71,8 +71,8 @@ export default function BlogLatest() {
                 {/* Image */}
                 <div className="blog-article__image">
                     <a href="post.html">
-                    <img alt="Image" data-sizes="auto" data-srcset="/src/assets/images/collection/post-3.jpg 1560w,
-                            /src/assets/images/collection/post-3.jpg 3120w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
+                    <img alt="Image" data-sizes="auto" data-srcset="/assets/images/collection/post-3.jpg 1560w,
+                            /assets/images/collection/post-3.jpg 3120w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                     </a>
                 </div>
                 {/* End image */}
