@@ -7,7 +7,7 @@ import {
 export default function CanvasCart() {
     const cartData = useCart();
     
-    console.log(cartData)
+    // console.log(cartData)
     return (
         <div className="canvas-cart js-canvas-cart">
             <div className="canvas-cart__overlay js-close-canvas-cart" />
