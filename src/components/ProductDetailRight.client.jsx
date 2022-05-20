@@ -1,24 +1,16 @@
-import { flattenConnection } from '@shopify/hydrogen'
+import { flattenConnection, useProduct } from '@shopify/hydrogen/client'
 import React from 'react'
+import ProductDetailReviews from './ProductDetailReviews.client';
 
-export default function ProductDetailRight({product}) {
-  const variants = flattenConnection(product.variants);
-  const selectedVariant = variants[0];
-  console.log(selectedVariant)
+export default function ProductDetailRight() {
+  const { descriptionHtml, selectedVariant, title, options, setSelectedOption, selectedOptions, variants } = useProduct();
+  
   return (
     <div class="product__right">
-      {/* <h1 class="product__title">{product.title}</h1> */}
+      {/* <h1 class="product__title">{title}</h1> */}
       
-      {/* <!-- Product reviews --> */}
-      <div class="product__reviews d-none">
-        <i class="lnir lnir-star-filled active"></i>
-        <i class="lnir lnir-star-filled active"></i>
-        <i class="lnir lnir-star-filled active"></i>
-        <i class="lnir lnir-star-filled active"></i>
-        <i class="lnir lnir-star-filled"></i>
-        <span>3 reviews</span>
-      </div>
-      {/* <!-- End product reviews --> */}
+      <ProductDetailReviews />
+      
       {/* <!-- Product price --> */}
       <div class="product__price">
         {selectedVariant.priceV2.amount} {selectedVariant.priceV2.currencyCode}
@@ -26,38 +18,42 @@ export default function ProductDetailRight({product}) {
         {selectedVariant.compareAtPriceV2 && <span class="product-price__old">{selectedVariant.compareAtPriceV2.amount} {selectedVariant.compareAtPriceV2.currencyCode}</span>}
       </div>
       {/* <!-- End product price --> */}
+
       {/* <!-- Status --> */}
       <div class="product__status">
         <i class="lnir lnir-package"></i>
         <span>Status:</span>
-        <span class="status__value status__value--in-stock">{!selectedVariant.availableForSale ? 'In stock' : <span className='text-danger'>Sold Out</span>}</span>
+        <span class="status__value status__value--in-stock">{selectedVariant.availableForSale ? 'In stock' : <span className='text-danger'>Sold Out</span>}</span>
       </div>
       {/* <!-- End product status --> */}
+
       {/* <!-- Product description --> */}
       <div class="product__description">
-        {product.descriptionHtml}
+        {descriptionHtml}
       </div>
       {/* <!-- End product description --> */}
       {/* <!-- Options --> */}
       <div class="product__options">
-      {/* <!-- Product colors --> */}
-      <div class="product__colors d-flex align-items-center">
-          {/* <!-- Available colors --> */}
-          <ul class="product__available-colors">
-          <li class="active"><a href="#" style={{ "background": "#503a2a" }} class="open-tooltip"><span class="custom-tooltip">Bold Brown</span></a></li>
-          <li><a href="#" style={{ "background": "#1c1b20" }} class="open-tooltip"><span class="custom-tooltip">Black</span></a></li>
-          </ul>
-          {/* <!-- End available colors --> */}
-          {/* <!-- Current color --> */}
-          <div class="product__current-color">Color: <span>Bold Brown</span></div>
-          {/* <!-- End current color --> */}
-      </div>
-      {/* <!-- End product colors --> */}
-      {/* <!-- Product sizes --> */}
+      {options.map(({name, values}) => {
+        {/* <!-- Product colors --> */}
+        console.log({selectedOptions})
+        return(
+          <div class="product__colors d-flex align-items-center">
+              {/* <!-- Available colors --> */}
+              <ul class="product__available-colors">
+              <li class="active"><a href="#" style={{ "background": "#503a2a" }} class="open-tooltip"><span class="custom-tooltip">Bold Brown</span></a></li>
+              <li><a href="#" style={{ "background": "#1c1b20" }} class="open-tooltip"><span class="custom-tooltip">Black</span></a></li>
+              </ul>
+              {/* <!-- End available colors --> */}
+              {/* <!-- Current color --> */}
+              <div class="product__current-color">{name}: <span>{selectedOptions[name]}</span></div>
+              {/* <!-- End current color --> */}
+          </div>
+        )
+        {/* <!-- End product colors --> */}
 
-      {/* {variants.map(v => {
-          
-      })} */}
+      })}
+      {/* <!-- Product sizes --> */}
       <div class="product__sizes-2 d-flex align-items-center">
           {/* <!-- Available sizes --> */}
           <ul class="product__available-sizes">
