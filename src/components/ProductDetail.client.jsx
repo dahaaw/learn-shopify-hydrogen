@@ -1,4 +1,4 @@
-import { flattenConnection } from '@shopify/hydrogen'
+import { flattenConnection, ProductProvider } from '@shopify/hydrogen/client'
 import React from 'react'
 import ProductDetailMainImage from './ProductDetailMainImage.client'
 import ProductDetailMobileGalery from './ProductDetailMobileGalery.client'
@@ -8,10 +8,10 @@ import ProductDetailThumbnails from './ProductDetailThumbnails.client'
 import ProductSlider from './ProductSlider.client'
 
 export default function ProductDetail({product}) {
+  const initialVariant = flattenConnection(product.variants)[0];
   const media = flattenConnection(product.media);
-  console.log(product)
   return (
-      <>
+      <ProductProvider data={product} initialVariantId={initialVariant.id}>
         <div class="product__previous-page">
         <a href="#"><i class="lnil lnil-arrow-left"></i></a>
         </div>
@@ -35,6 +35,6 @@ export default function ProductDetail({product}) {
         </div>
 
         <ProductSlider />
-    </>
+    </ProductProvider>
   )
 }

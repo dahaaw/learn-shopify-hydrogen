@@ -20,7 +20,7 @@ export default function Breadcrumb({ url = [] }) {
                     if(last) title = v?.replace(/-/g, ' ')?.toUpperCase();
                     if(v && !v.includes(':') && !v.includes('.')) {
                         return (
-                            <li class={`breadcrumb__item ${last && 'active'}`}>
+                            <li class={`breadcrumb__item ${last && 'active'}`} key={i}>
                                 {(last) ? title : <Link to={`/${v}`}>{v}</Link>}
                             </li>
                         )

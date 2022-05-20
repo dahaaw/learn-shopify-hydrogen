@@ -1,4 +1,4 @@
-import { flattenConnection, useShopQuery } from '@shopify/hydrogen';
+import { useShopQuery } from '@shopify/hydrogen';
 import gql from 'graphql-tag';
 import React from 'react'
 import Breadcrumb from '../../components/Breadcrumb.client';
