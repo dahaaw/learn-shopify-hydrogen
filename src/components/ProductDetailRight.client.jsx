@@ -3,8 +3,18 @@ import React from 'react'
 import ProductDetailReviews from './ProductDetailReviews.client';
 
 export default function ProductDetailRight() {
-  const { descriptionHtml, selectedVariant, title, options, setSelectedOption, selectedOptions, variants } = useProduct();
-  
+  const { 
+    descriptionHtml, 
+    vendor, 
+    selectedVariant, 
+    title, 
+    options, 
+    setSelectedOption, 
+    selectedOptions, 
+    variants,
+    collections
+  } = useProduct();
+  console.log(useProduct())
   return (
     <div class="product__right">
       {/* <h1 class="product__title">{title}</h1> */}
@@ -35,60 +45,82 @@ export default function ProductDetailRight() {
       {/* <!-- Options --> */}
       <div class="product__options">
       {options.map(({name, values}) => {
-        {/* <!-- Product colors --> */}
-        console.log({selectedOptions})
-        return(
-          <div class="product__colors d-flex align-items-center">
-              {/* <!-- Available colors --> */}
-              <ul class="product__available-colors">
-              <li class="active"><a href="#" style={{ "background": "#503a2a" }} class="open-tooltip"><span class="custom-tooltip">Bold Brown</span></a></li>
-              <li><a href="#" style={{ "background": "#1c1b20" }} class="open-tooltip"><span class="custom-tooltip">Black</span></a></li>
+        if(name === 'Color'){
+          return(
+            <div class="product__colors d-flex align-items-center">
+                
+                <ul class="product__available-colors">
+                  {values.map((v,i) => {
+                    return(
+                      <li 
+                        onClick={() => setSelectedOption(name, v)}
+                        key={i} 
+                        role="button"
+                        class={`cursor-pointer ${v === selectedOptions[name] && "active"}`}
+                      >
+                          <a style={{ "background": v }} class="open-tooltip">
+                            <span class="custom-tooltip">{v}</span>
+                          </a>
+                      </li>    
+                    )
+                  })}
+                </ul>
+                
+                {/* <!-- Current color --> */}
+                <div class="product__current-color">{name}: <span>{selectedOptions[name]}</span></div>
+                {/* <!-- End current color --> */}
+            </div>
+          )
+        }else{
+          return(
+            <div class="product__sizes-2 d-flex align-items-center">
+              
+              <ul class="product__available-sizes">
+                {values.map((v,i)=> {
+                  return(
+                    <li 
+                      onClick={() => setSelectedOption(name, v)}
+                      key={i} 
+                      className={v === selectedOptions[name] && 'active'}
+                      role="button"
+                    >
+                      <a>{v}</a>
+                    </li>
+                  )
+                })}
               </ul>
-              {/* <!-- End available colors --> */}
-              {/* <!-- Current color --> */}
-              <div class="product__current-color">{name}: <span>{selectedOptions[name]}</span></div>
-              {/* <!-- End current color --> */}
-          </div>
-        )
-        {/* <!-- End product colors --> */}
+              
+              {/* <!-- Current variant --> */}
+              <div class="product__current-size">{name}: <span>{selectedOptions[name]}</span></div>
+              {/* <!-- End current variant --> */}
+            </div>
+          )
+        }
 
       })}
-      {/* <!-- Product sizes --> */}
-      <div class="product__sizes-2 d-flex align-items-center">
-          {/* <!-- Available sizes --> */}
-          <ul class="product__available-sizes">
-          <li><a href="#">39</a></li>
-          <li class="active"><a href="#">40</a></li>
-          <li><a href="#">41</a></li>
-          </ul>
-          {/* <!-- End available sizes --> */}
-          {/* <!-- Current size --> */}
-          <div class="product__current-size">Size: <span>40</span></div>
-          {/* <!-- End current size --> */}
-      </div>
-      {/* <!-- End product sizes --> */}
+      
       </div>
       {/* <!-- End options --> */}
       {/* <!-- Product action -->  */}
       <div class="product__action js-product-action">
       {/* <!-- Product quantity and add to cart --> */}
-      <div class="product__quantity-and-add-to-cart d-flex">
+      <div class={`product__quantity-and-add-to-cart ${selectedVariant.availableForSale ? 'd-flex' : 'd-none'}`}>
           {/* <!-- Quantity --> */}
           <div class="product__quantity">
-          <div class="product-quantity__minus js-quantity-down"><a href="#"><i class="lnil lnil-minus"></i></a></div>
-          <input type="text" value="2" class="product-quantity__input js-quantity-field" />
-          <div class="product-quantity__plus js-quantity-up"><a href="#"><i class="lnil lnil-plus"></i></a></div>
+            <div class="product-quantity__minus js-quantity-down"><a href="#"><i class="lnil lnil-minus"></i></a></div>
+            <input type="text" value="1" class="product-quantity__input js-quantity-field" />
+            <div class="product-quantity__plus js-quantity-up"><a href="#"><i class="lnil lnil-plus"></i></a></div>
           </div>  
           {/* <!-- End quantity --> */}
           {/* <!-- Add to cart --> */}
           <div class="product__add-to-cart">
-          <a href="#" class="eighth-button">Add to cart</a>
+            <a href="#" class="eighth-button">Add to cart</a>
           </div>
           {/* <!-- End add to cart --> */}
       </div>
       {/* <!-- End product quantity and add to cart --> */}
       {/* <!-- Buy now --> */}
-      <div class="product__buy-now">
+      <div class={`product__buy-now ${!selectedVariant.availableForSale && 'd-none'}`}>
           <a href="#" class="second-button">Buy now</a>
       </div>
       {/* <!-- End buy now --> */}
@@ -102,10 +134,14 @@ export default function ProductDetailRight() {
       {/* <!-- End product section action --> */}
       {/* <!-- Product information --> */}
       <ul class="product__information">
-      <li><span>SKU</span><p>SS-501</p></li>
-      <li><span>Category</span><p>Men’s Clothing</p></li>
-      <li><span>Tags</span><p><a href="#">shirt</a>, <a href="#">men</a>, <a href="#">basic</a>, <a href="#">cotton</a></p></li>
-      <li><span>Brand</span><p><a href="#">Zara</a></p></li>
+      <li><span>SKU</span><p>{selectedVariant.sku}</p></li>
+      <li><span>Category</span><p>{collections ? collections : '-'}</p></li>
+      <li><span>Tags</span><p>
+        <a href="#">shirt</a>, 
+        <a href="#">men</a>, 
+        <a href="#">basic</a>, <a href="#">cotton</a>
+      </p></li>
+      <li><span>Brand</span><p><a href="#">{vendor}</a></p></li>
       </ul>
       {/* <!-- End product information --> */}
       {/* <!-- Product social --> */}
