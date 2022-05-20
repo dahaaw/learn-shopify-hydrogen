@@ -697,9 +697,9 @@ export default function JquertLoad({children}) {
         $(".js-quantity-down").on("click", function() {
           var q_val_up = parseInt($(this).parent().find(".js-quantity-field").val());
           if(isNaN(q_val_up)) {
-            q_val_up = 0;
+            q_val_up = 1;
           }
-          if(q_val_up > 0) {
+          if(q_val_up > 1) {
             $(this).parent().find(".js-quantity-field").val(q_val_up-1).keyup();
           } 
           return false; 
@@ -707,7 +707,7 @@ export default function JquertLoad({children}) {
         $(".js-quantity-up").on("click", function() {
           var q_val_up = parseInt($(this).parent().find(".js-quantity-field").val());
           if(isNaN(q_val_up)) {
-            q_val_up = 0;
+            q_val_up = 1;
           }
           $(this).parent().find(".js-quantity-field").val(q_val_up+1).keyup(); 
           return false; 
