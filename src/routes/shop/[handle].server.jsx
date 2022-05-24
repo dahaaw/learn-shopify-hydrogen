@@ -23,7 +23,9 @@ export default function Shop({params, request}) {
 
     return (
         <Layout>
-            <Breadcrumb url={request.normalizedUrl}/>
+            <div className="container">
+              <Breadcrumb url={request.normalizedUrl}/>
+            </div>
             <ProductDetail product={product}/>
         </Layout>
     )

@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 export default function JquertLoad({children}) {
     
     useEffect(() => {
-        console.log('huhu')
+        // console.log('huhu')
         var durotan;
 (function($) {
   "use strict";
@@ -809,7 +809,7 @@ export default function JquertLoad({children}) {
 })(jQuery);
 setTimeout(() => {
     durotan.init()
-}, 3000);
+}, 1000);
     }, [children]);
   return (children)
 }

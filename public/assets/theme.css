@@ -8730,6 +8730,7 @@ body.product-page #main {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 14px;
+  cursor: pointer;
 }
 @media (max-width: 1098px) {
   .seventh-button {
@@ -13431,6 +13432,7 @@ body.home .header-cart {
   letter-spacing: 0.75px;
   text-transform: uppercase;
   color: #000;
+  background-color: transparent;
 }
 
 .header-cart__button--checkout {

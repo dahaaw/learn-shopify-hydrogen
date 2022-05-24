@@ -1,7 +1,9 @@
 import React from 'react'
 import {
     useCart,
-    CartLines
+    CartLines,
+    CartEstimatedCost,
+    CartCheckoutButton
 } from '@shopify/hydrogen/client';
 import { useEffect } from 'react';
 import CartItems from './CartItems.client';
@@ -10,7 +12,7 @@ import CartItems from './CartItems.client';
 export default function CanvasCart() {
     const {totalQuantity, lines} = useCart();
     useEffect(() => {
-        console.log(lines)
+        // console.log(lines)
     }, [lines]);
     
     return (
@@ -48,18 +50,16 @@ export default function CanvasCart() {
                     <div className="canvas-cart__bottom">
                         {/* Subtotal */}
                         <div className="header-cart__subtotal d-flex">
-                        {/* Title */}
-                        <div className="subtotal__title">Subtotal</div>
-                        {/* End title */}
-                        {/* Value */}
-                        <div className="subtotal__value">$272.47</div>
-                        {/* End value */}
+                            <div className="subtotal__title">Subtotal</div>
+                        <div className="subtotal__value"><CartEstimatedCost amountType='subtotal' /></div>
                         </div>
                         {/* End subtotal */}
+
                         {/* Header cart action */}
                         <div className="header-cart__action">
-                        <a href="checkout.html" className="header-cart__button">Checkout</a>
-                        <a href="cart.html" className="header-cart__button">View cart</a>
+                            <CartCheckoutButton className="header-cart__button">
+                                Checkout
+                            </CartCheckoutButton>
                         </div>
                         {/* End Header cart action */}
                     </div>
