@@ -11,8 +11,6 @@ export default function Breadcrumb({ url = [] }) {
     })
     return (
         <div class="shop-breadcrumb shop-breadcrumb--type-2">
-        <div class="container">
-            
             <ol class="breadcrumb text-uppercase">
                 <li class="breadcrumb__item"><Link to="/">home </Link></li>
                 {arrUrlFix.map((v, i) => {
@@ -32,6 +30,5 @@ export default function Breadcrumb({ url = [] }) {
             <h1 class="shop-breadcrumb__title">{title}</h1>
             {/* <!-- End Title --> */}
         </div>
-    </div>
   )
 }

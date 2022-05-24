@@ -7,28 +7,37 @@ import gql from 'graphql-tag';
 
 import Breadcrumb from '../components/Breadcrumb.client';
 import Layout from '../components/Layout.server';
+import LoadMore from '../components/LoadMore.client';
 import ProductLists from '../components/ProductLists.client';
 
-export default function Shop({request}) {
+export default function Shop({request, first = 8}) {
   const {data} = useShopQuery({
     query: QUERY,
     cache: CacheHours(),
-    preload: "*"
+    preload: "*",
+    variables: {
+      first
+    }
   });
   const products = flattenConnection(data.products);
 
   return (
     <Layout>
-      <Breadcrumb url={request.normalizedUrl}/>
-      <ProductLists products={products}/>
+      <LoadMore current={first} hasNextPage={data.products.pageInfo.hasNextPage}>
+        <Breadcrumb url={request.normalizedUrl}/>
+        <ProductLists products={products}/>
+      </LoadMore>
     </Layout>
   );
 }
 
 const QUERY = gql`
-  query layoutContent($language: LanguageCode)
+  query layoutContent($language: LanguageCode, $first: Int!)
   @inContext(language: $language) {
-    products(first: 8) {
+    products(first: $first) {
+      pageInfo {
+        hasNextPage
+      }
       edges {
         node {
             title

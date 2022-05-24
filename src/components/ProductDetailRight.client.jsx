@@ -1,5 +1,10 @@
-import { flattenConnection, useProduct } from '@shopify/hydrogen/client'
+import { 
+  flattenConnection, 
+  useProduct,
+  AddToCartButton
+} from '@shopify/hydrogen/client'
 import React from 'react'
+import { useState } from 'react';
 import ProductDetailReviews from './ProductDetailReviews.client';
 
 export default function ProductDetailRight() {
@@ -14,7 +19,8 @@ export default function ProductDetailRight() {
     variants,
     collections
   } = useProduct();
-  console.log(useProduct())
+  
+  const [qty, setQty] = useState(1);
   return (
     <div class="product__right">
       {/* <h1 class="product__title">{title}</h1> */}
@@ -58,10 +64,10 @@ export default function ProductDetailRight() {
                         role="button"
                         class={`cursor-pointer ${v === selectedOptions[name] && "active"}`}
                       >
-                          <a style={{ "background": v }} class="open-tooltip">
-                            <span class="custom-tooltip">{v}</span>
-                          </a>
-                      </li>    
+                        <a style={{ "background": v }} class="open-tooltip">
+                          <span class="custom-tooltip">{v}</span>
+                        </a>
+                      </li>
                     )
                   })}
                 </ul>
@@ -107,16 +113,20 @@ export default function ProductDetailRight() {
       <div class={`product__quantity-and-add-to-cart ${selectedVariant.availableForSale ? 'd-flex' : 'd-none'}`}>
           {/* <!-- Quantity --> */}
           <div class="product__quantity">
-            <div class="product-quantity__minus js-quantity-down"><a href="#"><i class="lnil lnil-minus"></i></a></div>
-            <input type="text" value="1" class="product-quantity__input js-quantity-field" />
-            <div class="product-quantity__plus js-quantity-up"><a href="#"><i class="lnil lnil-plus"></i></a></div>
+            <div class="product-quantity__minus js-quantity-down--" onClick={(e) => {e.preventDefault(); qty > 1 && setQty(qty - 1)} }><a href="#"><i class="lnil lnil-minus"></i></a></div>
+            <input type="text" value={qty} class="product-quantity__input js-quantity-field" />
+            <div class="product-quantity__plus js-quantity-up--" onClick={(e) => {e.preventDefault(); setQty(qty + 1)} }><a href="#"><i class="lnil lnil-plus"></i></a></div>
           </div>  
           {/* <!-- End quantity --> */}
+
           {/* <!-- Add to cart --> */}
           <div class="product__add-to-cart">
-            <a href="#" class="eighth-button">Add to cart</a>
+            <AddToCartButton quantity={qty} style={{ 'border': 'none', 'backgroundColor': 'transparent' }}>
+              <a href="#" class="eighth-button">Add to cart</a>
+            </AddToCartButton>
           </div>
           {/* <!-- End add to cart --> */}
+
       </div>
       {/* <!-- End product quantity and add to cart --> */}
       {/* <!-- Buy now --> */}
