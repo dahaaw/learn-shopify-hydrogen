@@ -1,13 +1,18 @@
 import React from 'react'
 import {
-    useCart
+    useCart,
+    CartLines
 } from '@shopify/hydrogen/client';
+import { useEffect } from 'react';
+import CartItems from './CartItems.client';
   
 
 export default function CanvasCart() {
-    const cartData = useCart();
+    const {totalQuantity, lines} = useCart();
+    useEffect(() => {
+        console.log(lines)
+    }, [lines]);
     
-    // console.log(cartData)
     return (
         <div className="canvas-cart js-canvas-cart">
             <div className="canvas-cart__overlay js-close-canvas-cart" />
@@ -20,115 +25,23 @@ export default function CanvasCart() {
                         {/* Heading */}
                         <div className="canvas-cart__heading d-flex align-items-center">
                         {/* H3 */}
-                        <h3 className="canvas-cart__h3">Cart ({cartData.totalQuantity})</h3>
+                        <h3 className="canvas-cart__h3">Cart {totalQuantity > 0 && <>({totalQuantity})</>}</h3>
                         {/* End h3 */}
                         {/* Close */}
                         <div className="canvas-cart__close"><a href="#" className="js-close-canvas-cart"><i className="lnil lnil-close" /></a></div>
                         {/* End close */}
                         </div>  
                         {/* End heading */}
-                        {/* Cart items */}
-                        <ul className="header-cart__items">
-                        {/* Item */}
-                        <li className="cart-item d-flex">
-                            {/* Item image */}
-                            <p className="cart-item__image cart-item__image--ratio-100-122">
-                            <a href="product.html">
-                                <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/28a.jpg 400w,
-                                    /assets/products/2/28a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
-                            </a>
-                            </p>
-                            {/* End item image */}
-                            {/* Item details */}
-                            <p className="cart-item__details">
-                            <a href="product.html" className="cart-item__title">Slim fit modal cotton shirt</a>
-                            <span className="cart-item__variant">Grey, M</span>
-                            <span className="cart-ietm__price">2 <i>x</i> $113.99</span>
-                            </p>
-                            {/* End item details */}
-                            {/* Item quantity */}
-                            <div className="cart-item__quantity">
-                            <div className="cart-product__quantity-field">
-                                <div className="quantity-field__minus js-quantity-down"><a href="#">-</a></div>
-                                <input type="text" defaultValue={1} className="quantity-field__input js-quantity-field" />
-                                <div className="quantity-field__plus js-quantity-up"><a href="#">+</a></div>
-                            </div>
-                            </div>
-                            {/* End item quantity */}
-                            {/* Item delete */}
-                            <p className="cart-item__delete">
-                            <a href="#"><i className="lnil lnil-close" /></a>
-                            </p>
-                            {/* Item delete */}
-                        </li>
-                        {/* End item */}
-                        {/* Item */}
-                        <li className="cart-item d-flex">
-                            {/* Item image */}
-                            <p className="cart-item__image cart-item__image--ratio-100-122">
-                            <a href="product.html">
-                                <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/27_1-a.jpg 400w,
-                                    /assets/products/2/27_1-a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
-                            </a>
-                            </p>
-                            {/* End item image */}
-                            {/* Item details */}
-                            <p className="cart-item__details">
-                            <a href="product.html" className="cart-item__title">Suede sport shoes</a>
-                            <span className="cart-item__variant">Bold Brown, 40</span>
-                            <span className="cart-ietm__price">1 <i>x</i> $45.5</span>
-                            </p>
-                            {/* End item details */}
-                            {/* Item quantity */}
-                            <div className="cart-item__quantity">
-                            <div className="cart-product__quantity-field">
-                                <div className="quantity-field__minus js-quantity-down"><a href="#">-</a></div>
-                                <input type="text" defaultValue={1} className="quantity-field__input js-quantity-field" />
-                                <div className="quantity-field__plus js-quantity-up"><a href="#">+</a></div>
-                            </div>
-                            </div>
-                            {/* End item quantity */}
-                            {/* Item delete */}
-                            <p className="cart-item__delete">
-                            <a href="#"><i className="lnil lnil-close" /></a>
-                            </p>
-                            {/* Item delete */}
-                        </li>
-                        {/* End item */}
-                        {/* Item */}
-                        <li className="cart-item d-flex">
-                            {/* Item image */}
-                            <p className="cart-item__image cart-item__image--ratio-100-122">
-                            <a href="product.html">
-                                <img alt="Image" data-sizes="auto" data-srcset="/assets/products/2/29a.jpg 400w,
-                                    /assets/products/2/29a.jpg 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
-                            </a>
-                            </p>
-                            {/* End item image */}
-                            {/* Item details */}
-                            <p className="cart-item__details">
-                            <a href="product.html" className="cart-item__title">Pebbled crossbody belt bag</a>
-                            <span className="cart-ietm__price">1 <i>x</i> $129.99</span>
-                            </p>
-                            {/* End item details */}
-                            {/* Item quantity */}
-                            <div className="cart-item__quantity">
-                            <div className="cart-product__quantity-field">
-                                <div className="quantity-field__minus js-quantity-down"><a href="#">-</a></div>
-                                <input type="text" defaultValue={1} className="quantity-field__input js-quantity-field" />
-                                <div className="quantity-field__plus js-quantity-up"><a href="#">+</a></div>
-                            </div>
-                            </div>
-                            {/* End item quantity */}
-                            {/* Item delete */}
-                            <p className="cart-item__delete">
-                            <a href="#"><i className="lnil lnil-close" /></a>
-                            </p>
-                            {/* Item delete */}
-                        </li>
-                        {/* End item */}
-                        </ul>
-                        {/* End cart items */}
+                        {totalQuantity === 0 ? 
+                            <div>empty</div> 
+                            :
+                            <ul className="header-cart__items">
+                                <CartLines>
+                                    <CartItems />
+                                </CartLines>
+                            </ul>
+                        }
+                        
                     </div>
                     {/* End top and products */}
                     {/* Bottom */}
