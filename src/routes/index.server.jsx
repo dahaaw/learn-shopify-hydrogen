@@ -1,6 +1,6 @@
-import Banner from '../components/Banner.client';
+import Banner from '../components/Banner.server';
 import BlogLatest from '../components/BlogLatest.client';
-import Brands from '../components/Brands.client';
+import Brands from '../components/Brands.server';
 import CollectionBanner from '../components/CollectionBanner.client';
 import Intro from '../components/Intro.client';
 import Layout from '../components/Layout.server';
@@ -22,3 +22,5 @@ export default function Home() {
     </Layout>
   );
 }
+
+

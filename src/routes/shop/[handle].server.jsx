@@ -18,9 +18,6 @@ export default function Shop({params, request}) {
         preload: true,
     });
 
-    // const variants = flattenConnection(product.variants); 
-    // console.log(product)
-
     return (
         <Layout>
             <div className="container">

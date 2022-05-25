@@ -8,7 +8,6 @@ import React from 'react'
 
 export default function CartItems() {
   const {merchandise, quantity} = useCartLine();
-  // console.log({merchandise})
   return (
     
         <li className="cart-item d-flex">
