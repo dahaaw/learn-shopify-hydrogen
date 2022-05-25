@@ -2,7 +2,8 @@ import React from 'react'
 import { 
     useShopQuery,
     useShop,
-    flattenConnection
+    flattenConnection,
+    Link
 } from '@shopify/hydrogen';
 
 import gql from 'graphql-tag';
@@ -43,7 +44,7 @@ export default function Banner() {
                     {/* End banner content */}
                     {/* Banner action */}
                     <div className="classic-banner__action">
-                        <a href="shop.html">Shop Now</a>
+                        <Link to={`/shop/${v.handle}`}>Shop Now</Link>
                     </div>
                     {/* End banner action */}
                     </div>

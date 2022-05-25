@@ -9,7 +9,7 @@ export default function Brands() {
         language: languageCode
     })
     const collections = flattenConnection(data.collections)
-    console.log(collections)
+    
   return (
     <div className="classic-brands">
         {/* Container */}
