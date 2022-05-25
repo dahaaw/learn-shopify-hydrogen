@@ -798,10 +798,3 @@ var durotan;
     }
   })();
 })(jQuery);
-
-// $(document).ready(function() {
-//   setTimeout(() => {
-    // durotan.init();
-//     console.log('custom function run')
-//   }, 5000);
-// });

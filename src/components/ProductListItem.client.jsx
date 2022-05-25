@@ -3,7 +3,7 @@ import { Link } from '@shopify/hydrogen/client';
 import React from 'react'
 
 export default function ProductListItem({product}) {
-    // console.log(product);
+
     const images = flattenConnection(product.images);
     const variants = flattenConnection(product.variants);
     const selectedVariant = variants[0];

@@ -12,7 +12,7 @@ import CartItems from './CartItems.client';
 export default function CanvasCart() {
     const {totalQuantity, lines} = useCart();
     useEffect(() => {
-        // console.log(lines)
+        console.log('cart updated')
     }, [lines]);
     
     return (
@@ -35,7 +35,9 @@ export default function CanvasCart() {
                         </div>  
                         {/* End heading */}
                         {totalQuantity === 0 ? 
-                            <div>empty</div> 
+                            <div>
+                                <div className="text-center">Your cart is empty</div> 
+                            </div>
                             :
                             <ul className="header-cart__items">
                                 <CartLines>
@@ -46,24 +48,26 @@ export default function CanvasCart() {
                         
                     </div>
                     {/* End top and products */}
-                    {/* Bottom */}
-                    <div className="canvas-cart__bottom">
-                        {/* Subtotal */}
-                        <div className="header-cart__subtotal d-flex">
-                            <div className="subtotal__title">Subtotal</div>
-                        <div className="subtotal__value"><CartEstimatedCost amountType='subtotal' /></div>
-                        </div>
-                        {/* End subtotal */}
+                    {totalQuantity > 0 && 
+                        <div className="canvas-cart__bottom">
+                        {/* Bottom */}
+                            {/* Subtotal */}
+                            <div className="header-cart__subtotal d-flex">
+                                <div className="subtotal__title">Subtotal</div>
+                            <div className="subtotal__value"><CartEstimatedCost amountType='subtotal' /></div>
+                            </div>
+                            {/* End subtotal */}
 
-                        {/* Header cart action */}
-                        <div className="header-cart__action">
-                            <CartCheckoutButton className="header-cart__button">
-                                Checkout
-                            </CartCheckoutButton>
+                            {/* Header cart action */}
+                            <div className="header-cart__action">
+                                <CartCheckoutButton className="header-cart__button">
+                                    Checkout
+                                </CartCheckoutButton>
+                            </div>
+                            {/* End Header cart action */}
+                        {/* End bottom */}
                         </div>
-                        {/* End Header cart action */}
-                    </div>
-                    {/* End bottom */}
+                    }
                 </div>
                 {/* End d-flex */}
             </div>

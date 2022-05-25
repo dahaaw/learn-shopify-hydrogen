@@ -18,7 +18,6 @@ const Layout = ({children}) => {
         cache: CacheHours(),
         preload: "*"
     });
-    // console.log(JSON.stringify(data))
     
     return (
         <div class="home-classic">
