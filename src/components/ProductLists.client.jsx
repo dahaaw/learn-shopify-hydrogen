@@ -2,6 +2,7 @@ import React from 'react'
 import ProductListItem from './ProductListItem.client'
 
 export default function ProductLists({products}) {
+
   return (
     <>
         {/* <!-- Top filter --> */}

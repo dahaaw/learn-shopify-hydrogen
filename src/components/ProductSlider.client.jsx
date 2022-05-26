@@ -38,8 +38,8 @@ export default function ProductSlider({products = []}) {
                         {images.map((v,i) => {
                             return(
                                 <Link to={`/shop/${product.handle}`}>
-                                    <div className={`product-grid-item__image js-product-grid-image border ${i === 0 && 'active'}`}>
-                                        <a href="#">
+                                    <div className={`product-grid-item__image js-product-grid-image ${i === 0 && 'active'}`}>
+                                        <a href="#" className="border ">
                                         <img alt="Image" style={{ 'objectFit': 'contain' }} data-sizes="auto" data-srcset={`${v.url} 400w,
                                                 ${v.url} 800w`} src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" className="lazyload" />
                                         </a>

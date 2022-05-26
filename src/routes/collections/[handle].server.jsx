@@ -4,6 +4,7 @@ import {
     flattenConnection
   } from '@shopify/hydrogen';
   import gql from 'graphql-tag';
+import { Suspense } from 'react';
   
   import Breadcrumb from '../../components/Breadcrumb.client';
 import CollectionIntro from '../../components/CollectionIntro.client';
@@ -31,7 +32,9 @@ import Intro from '../../components/Intro.client';
         <LoadMore current={first} hasNextPage={data.collection.products.pageInfo.hasNextPage}>
           <Breadcrumb url={request.normalizedUrl}/>
           <CollectionIntro description={data.collection.description}/>
-          <ProductLists products={products}/>
+          <Suspense fallback={null}>
+            <ProductLists products={products}/>
+          </Suspense>
         </LoadMore>
       </Layout>
     );
