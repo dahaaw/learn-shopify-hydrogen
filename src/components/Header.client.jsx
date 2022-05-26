@@ -5,7 +5,7 @@ import HeaderNav from './HeaderNav.client'
 import HeaderPromo from './HeaderPromo.client'
 
 
-function Header({ shop }) {
+function Header({ data, shop }) {
     const {totalQuantity} = useCart(); 
     
     return (
@@ -47,7 +47,7 @@ function Header({ shop }) {
                 </div>
                 {/* End header container */}
 
-                <HeaderNav />
+                <HeaderNav data={data}/>
             </div>
             {/* End container */}
         </header>

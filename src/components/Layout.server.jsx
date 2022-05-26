@@ -23,7 +23,7 @@ const Layout = ({children}) => {
         <div class="home-classic">
             <div id="main">
                 <JquertLoad>
-                  <Header shop={data.shop}/>
+                  <Header data={data} shop={data.shop}/>
                   <CanvasCart />
                   {children}
                   <Footer />
@@ -41,6 +41,27 @@ const QUERY = gql`
     shop {
       name,
       description
+    },
+
+    collections(first:10) {
+      edges {
+        node {
+          title
+          handle
+        }
+      }
+    }
+    
+    productTags(first:10) {
+      edges {
+        node
+      }
+    }  
+    
+    productTypes(first:10) {
+      edges {
+        node
+      }
     }
   }
 `;
